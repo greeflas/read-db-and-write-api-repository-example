@@ -1,0 +1,5 @@
+services:
+
+  App\Service\CountryService:
+    arguments:
+      - '@App\Repository\CombinedCountryRepository'
